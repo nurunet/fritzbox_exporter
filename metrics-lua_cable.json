@@ -81,6 +81,54 @@
         {
             "path": "data.lua",
             "params": "page=docInfo",
+            "resultPath": "data.channelUs.docsis30.*",
+            "resultKey": "modulation",
+            "promDesc": {
+                "fqName": "gateway_cable_modulation_upstream31",
+                "help": "docsis 3.0 modulation upstream from data.lua?page=docInfo",
+                "varLabels": [
+                    "gateway",
+                    "frequency"
+                ]
+            },
+            "promType": "GaugeValue",
+            "cacheEntryTTL": 300
+        },
+        {
+            "path": "data.lua",
+            "params": "page=docInfo",
+            "resultPath": "data.channelUs.docsis30.*",
+            "resultKey": "modulation",
+            "promDesc": {
+                "fqName": "gateway_cable_modulation_downstream",
+                "help": "docsis 3.0 modulation upstream from data.lua?page=docInfo",
+                "varLabels": [
+                    "gateway",
+                    "frequency"
+                ]
+            },
+            "promType": "GaugeValue",
+            "cacheEntryTTL": 300
+        },
+        {
+            "path": "data.lua",
+            "params": "page=docInfo",
+            "resultPath": "data.channelUs.docsis30.*",
+            "resultKey": "modulation",
+            "promDesc": {
+                "fqName": "gateway_cable_modulation_downstream31",
+                "help": "docsis 3.1 modulation upstream from data.lua?page=docInfo",
+                "varLabels": [
+                    "gateway",
+                    "frequency"
+                ]
+            },
+            "promType": "GaugeValue",
+            "cacheEntryTTL": 300
+        },
+        {
+            "path": "data.lua",
+            "params": "page=docInfo",
             "resultPath": "data.channelUs.docsis31.*",
             "resultKey": "powerLevel",
             "promDesc": {
@@ -130,6 +178,22 @@
             "path": "data.lua",
             "params": "page=docInfo",
             "resultPath": "data.channelDs.docsis30.*",
+            "resultKey": "nonCorrErrors",
+            "promDesc": {
+                "fqName": "gateway_cable_noncorrectables_downstream31",
+                "help": "docsis 3.1 uncorrectable errors downstream from data.lua?page=docInfo",
+                "varLabels": [
+                    "gateway",
+                    "frequency"
+                ]
+            },
+            "promType": "GaugeValue",
+            "cacheEntryTTL": 300
+        },
+        {
+            "path": "data.lua",
+            "params": "page=docInfo",
+            "resultPath": "data.channelDs.docsis30.*",
             "resultKey": "mse",
             "promDesc": {
                 "fqName": "gateway_cable_mse_downstream",
@@ -165,6 +229,22 @@
             "resultKey": "powerLevel",
             "promDesc": {
                 "fqName": "gateway_cable_power_downstream31",
+                "help": "docsis 3.1 powerlevel downstream from data.lua?page=docInfo",
+                "varLabels": [
+                    "gateway",
+                    "frequency"
+                ]
+            },
+            "promType": "GaugeValue",
+            "cacheEntryTTL": 300
+        },
+        {
+            "path": "data.lua",
+            "params": "page=docInfo",
+            "resultPath": "data.channelDs.docsis31.*",
+            "resultKey": "powerLevel",
+            "promDesc": {
+                "fqName": "gateway_cable_powerlevel_downstream31",
                 "help": "docsis 3.1 powerlevel downstream from data.lua?page=docInfo",
                 "varLabels": [
                     "gateway",
