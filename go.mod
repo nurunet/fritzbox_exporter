@@ -5,7 +5,7 @@ toolchain go1.24.1
 
 require (
 	github.com/namsral/flag v1.7.4-pre
-	github.com/prometheus/client_golang v1.20.5
+	github.com/prometheus/client_golang v1.21.1
 	github.com/sirupsen/logrus v1.9.3
 	golang.org/x/crypto v0.36.0
 	golang.org/x/text v0.23.0
