@@ -8,7 +8,7 @@ RUN go install github.com/sberk42/fritzbox_exporter@latest \
 
 WORKDIR /app
 
-COPY metrics.json metrics-lua.json /app/
+COPY metrics.json metrics-lua_cable.json /app/
 
 # Runtime Image
 FROM alpine:3.21 as runtime-image
