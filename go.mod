@@ -1,6 +1,6 @@
 module github.com/sberk42/fritzbox_exporter
 
-go 1.23.4
+go 1.24.0
 
 toolchain go1.24.1
 
@@ -9,7 +9,7 @@ require (
 	github.com/prometheus/client_golang v1.23.2
 	github.com/sirupsen/logrus v1.9.3
 	golang.org/x/crypto v0.41.0
-	golang.org/x/text v0.28.0
+	golang.org/x/text v0.29.0
 )
 
 require (
