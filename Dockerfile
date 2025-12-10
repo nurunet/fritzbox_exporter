@@ -12,7 +12,7 @@ COPY metrics.json /app/
 COPY metrics-lua_cable.json /app/metrics-lua.json 
 
 # Runtime Image
-FROM alpine:3.22 as runtime-image
+FROM alpine:3.23 as runtime-image
 
 ARG REPO=sberk42/fritzbox_exporter
 
