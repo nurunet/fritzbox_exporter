@@ -1,15 +1,13 @@
 module github.com/sberk42/fritzbox_exporter
 
-go 1.24.0
-
-toolchain go1.24.1
+go 1.25.0
 
 require (
 	github.com/namsral/flag v1.7.4-pre
 	github.com/prometheus/client_golang v1.23.2
 	github.com/sirupsen/logrus v1.9.3
-	golang.org/x/crypto v0.47.0
-	golang.org/x/text v0.34.0
+	golang.org/x/crypto v0.49.0
+	golang.org/x/text v0.35.0
 )
 
 require (
@@ -21,6 +19,6 @@ require (
 	github.com/prometheus/common v0.66.1 // indirect
 	github.com/prometheus/procfs v0.16.1 // indirect
 	go.yaml.in/yaml/v2 v2.4.2 // indirect
-	golang.org/x/sys v0.40.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
 	google.golang.org/protobuf v1.36.8 // indirect
 )
