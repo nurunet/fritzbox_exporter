@@ -1,4 +1,4 @@
-# Fritz!Box Upnp statistics exporter for prometheus
+# Fritz!Box Upnp statistics exporter for prometheus (ARCHIVED)
 
 This exporter exports some variables from an 
 [AVM Fritzbox](http://avm.de/produkte/fritzbox/)
